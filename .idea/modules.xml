@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo.iml" filepath="$PROJECT_DIR$/SpringCloudDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-eureka/demo-eureka.iml" filepath="$PROJECT_DIR$/demo-eureka/demo-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-jar-common/demo-jar-common.iml" filepath="$PROJECT_DIR$/demo-jar-common/demo-jar-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-server-channel/demo-server-channel.iml" filepath="$PROJECT_DIR$/demo-server-channel/demo-server-channel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-server-common/demo-server-common.iml" filepath="$PROJECT_DIR$/demo-server-common/demo-server-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-server-one/demo-server-one.iml" filepath="$PROJECT_DIR$/demo-server-one/demo-server-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-server-two/demo-server-two.iml" filepath="$PROJECT_DIR$/demo-server-two/demo-server-two.iml" />
+    </modules>
+  </component>
+</project>

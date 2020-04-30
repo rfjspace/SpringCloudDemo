@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-eureka" />
+        <module name="demo-jar-common" />
+        <module name="demo-server-channel" />
+        <module name="demo-server-common" />
+        <module name="demo-server-model" />
+        <module name="demo-server-one" />
+        <module name="demo-server-two" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-eureka" target="1.8" />
+      <module name="demo-jar-common" target="1.8" />
+      <module name="demo-server-channel" target="1.8" />
+      <module name="demo-server-common" target="1.8" />
+      <module name="demo-server-model" target="1.8" />
+      <module name="demo-server-one" target="1.8" />
+      <module name="demo-server-two" target="1.8" />
+      <module name="SpringCloudDemo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

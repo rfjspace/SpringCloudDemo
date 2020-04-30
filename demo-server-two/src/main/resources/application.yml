@@ -1,0 +1,16 @@
+server:
+  port: 9102
+spring:
+  application:
+    name: demo-server-two
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 5
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:9001/eureka
+    healthcheck:
+      enabled: true
